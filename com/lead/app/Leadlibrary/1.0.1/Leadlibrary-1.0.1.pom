@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.lead.app</groupId>
   <artifactId>Leadlibrary</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
   <packaging>aar</packaging>
   <dependencies>
     <dependency>
@@ -69,6 +69,30 @@
       <groupId>com.yanzhenjie</groupId>
       <artifactId>permission</artifactId>
       <version>1.1.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>28.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.tonystark.android</groupId>
+      <artifactId>socket</artifactId>
+      <version>4.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.tonystark.android</groupId>
+      <artifactId>socket-server</artifactId>
+      <version>4.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.orhanobut</groupId>
+      <artifactId>logger</artifactId>
+      <version>1.15</version>
       <scope>compile</scope>
     </dependency>
   </dependencies>
